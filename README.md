@@ -2,7 +2,7 @@
 
 
 
-이준용 CV [http://yousirong.github.io/yousirong_CV)](http://yousirong.github.io/yousirong_CV)
+이준용 CV : [http://yousirong.github.io/yousirong_CV)](http://yousirong.github.io/yousirong_CV)
 
 
 미완성20231025
@@ -14,7 +14,7 @@ The idea behind **The Curriculum Vitae Template** is to provide anyone with a qu
 
 ## Installation
 
-1. Create a new repo out of this template by clicking [this link](https://github.com/sneas/cv-template/generate).
+1. Create a new repo out of this template by clicking [this link](https://github.com/yousirong/yousirong_CV/generate).
 1. Clone the newly created repo.
 1. Install project dependencies with `npm install`.
 1. Run `npm run deploy` to initialize `gh-pages`. This is a one time action. Further deployments will be initiated by GitHub Actions on every push to `main`.
