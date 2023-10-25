@@ -2,7 +2,7 @@
 
 
 
-이준용 CV : [http://yousirong.github.io/yousirong_CV)](http://yousirong.github.io/yousirong_CV).
+이준용 CV : [http://yousirong.github.io/yousirong_CV)](http://yousirong.github.io/yousirong_CV)
 미완성20231025
 ## Motivation
 
