@@ -3,7 +3,7 @@
 
 
 이준용 CV : [http://yousirong.github.io/yousirong_CV)](http://yousirong.github.io/yousirong_CV).
-
+미완성20231025
 ## Motivation
 
 GitHub Pages is probably the best place developer could store their CV. Giving a potential employer a link to your CV stored on GitHub shows your intense desire for automation and stands you out.
