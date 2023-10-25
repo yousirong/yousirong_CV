@@ -2,7 +2,7 @@
 
 
 
-이준용 CV : [[http://sneas.github.io/cv](http://yousirong.github.io/yousirong_CV)](http://yousirong.github.io/yousirong_CV).
+이준용 CV : [http://yousirong.github.io/yousirong_CV)](http://yousirong.github.io/yousirong_CV).
 
 ## Motivation
 
