@@ -1,8 +1,7 @@
 
 
 
-
-이준용 CV : [http://yousirong.github.io/yousirong_CV](http://yousirong.github.io/yousirong_CV)
+JUNEYONGLEE CV : [http://yousirong.github.io/yousirong_CV](http://yousirong.github.io/yousirong_CV)
 
 ## Motivation
 
