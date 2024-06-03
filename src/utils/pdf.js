@@ -19,9 +19,9 @@ module.exports = async function buildPdf(inputFile, outputFile) {
     printBackground: true, // 배경이 출력되도록 설정합니다.
     margin: {
       top: "2.54cm",
-      right: "2.54cm",
+      right: "0.1cm",
       bottom: "2.54cm",
-      left: "2.54cm",
+      left: "0.1cm",
     },
   });
   await browser.close();
