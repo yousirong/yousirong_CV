@@ -18,4 +18,6 @@ GitHub Pages is probably the best place developer could store their CV. Giving a
 
 
 npm run build
+
+
 npm run deploy
