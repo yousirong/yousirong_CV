@@ -16,3 +16,8 @@ GitHub Pages is probably the best place developer could store their CV. Giving a
 1. GitHub Actions will automatically build the latest version and deploy it to GitHub Pages.
 1. Open `http://your-username.github.io/your-cv-repo`.
 
+
+npm run build
+
+
+npm run deploy
