@@ -282,16 +282,75 @@
         <p>팀명 : 각자의새벽</p>
         
     </div>
-    <!-- <div class="mb-4">
-        <h3 class="fs-4 fw-normal">Poetry</h3>
-
-        <p>In 1593 and 1594, when the theatres were closed because of plague, I published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece. I dedicated them to Henry Wriothesley, Earl of Southampton.</p>
-
-        <div>
-            <span class="badge text-body border border-1">poetry</span>
-            <span class="badge text-body border border-1">erotic</span>
+    <hr>
+    <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
+        <h2 class="mb-4">Research Projects</h2>
+        
+        <div class="mb-4">
+            <h3 class="fs-4 fw-normal">1. Conversion of Restored Rrs Data to Chl-a and Generation of Difference Map</h3>
+            <h4>Objective:</h4>
+            <p>
+                Convert restored Remote Sensing Reflectance (Rrs) data into Chlorophyll-a (Chl-a) and visualize spatial distribution errors through a Difference Map using composite data.
+            </p>
+            <h4>Main Tasks:</h4>
+            <ul>
+                <li>Process GOCI data captured 8 times a day into a single daily dataset by averaging pixel values.</li>
+                <li>Select specific coordinates in the Saemangeum or Nakdong River region to convert restored Rrs data to Chl-a and analyze results.</li>
+                <li>Calculate the difference between restored results and actual GOCI data, visualizing it using MinMaxScaler with a range of -20 to +20, represented in color scale.</li>
+            </ul>
+            <h4>Outcome:</h4>
+            <p>
+                While successful synthesis results from Rrs to Chl-a are rare globally, the study introduced a quantitative evaluation method using Difference Maps to assess restoration performance.
+            </p>
         </div>
-    </div> -->
+    
+        <div class="mb-4">
+            <h3 class="fs-4 fw-normal">2. Development of a Supervised Learning Model for Restoring Gaps in Chl-a Composite Data</h3>
+            <h4>Objective:</h4>
+            <p>
+                Develop a deep learning model to restore missing regions in Chl-a composite data, averaged over 8 days.
+            </p>
+            <h4>Main Tasks:</h4>
+            <ul>
+                <li>Convert UST21 dataset into 8-day moving averages for model training. For example, calculate averages for January 1–8 and January 2–9, and so on.</li>
+                <li>Focus on central regions around Saemangeum and Nakdong River but adjust the area towards the open sea if data availability is limited.</li>
+                <li>Train the RFRNet model with masked data for restoration tasks.</li>
+            </ul>
+            <h4>Validation:</h4>
+            <ul>
+                <li>Compare restored results with MODIS 8-day average data to evaluate performance.</li>
+                <li>Conduct quantitative analysis of restoration results for Nakdong River and Saemangeum regions using RMSE, MAE, and R² metrics.</li>
+                <li>Apply smoothing techniques for missing data when testing images larger than the traditional 256x256 patch size.</li>
+            </ul>
+        </div>
+    
+        <div class="mb-4">
+            <h3 class="fs-4 fw-normal">Technologies and Tools</h3>
+            <ul>
+                <li><strong>Data Processing:</strong> Python, NumPy, PyTorch, TensorFlow</li>
+                <li><strong>Satellite Data:</strong> GOCI Rrs, UST21 Chl-a, MODIS Chlorophyll-a</li>
+                <li><strong>Deep Learning Model:</strong> RFRNet (Restoration Focused Refinement Network)</li>
+                <li><strong>Data Visualization and Analysis:</strong> Matplotlib, Seaborn, RMSE/MAE evaluation metrics</li>
+            </ul>
+        </div>
+    
+        <div class="mb-4">
+            <h3 class="fs-4 fw-normal">Achievements</h3>
+            <ul>
+                <li>Proposed a new evaluation metric using Difference Maps based on restored Rrs and Chl-a data.</li>
+                <li>Enhanced satellite image restoration technology by leveraging UST21 and MODIS datasets.</li>
+                <li>Optimized restoration of missing data, increasing practical applicability of research outcomes.</li>
+            </ul>
+        </div>
+    
+        <div class="mb-4">
+            <h3 class="fs-4 fw-normal">Research Contributions</h3>
+            <p>
+                Improved the utility of ocean satellite data by analyzing restoration and prediction model performance, ensuring academic and industrial applicability.
+            </p>
+        </div>
+    </div>
+    
 </div>
 </body>
 </html>
